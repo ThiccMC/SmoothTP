@@ -1,0 +1,11 @@
+name: SmoothTP
+version: '${project.version}'
+main: com.thiccmc.ayumu.smoothtp.SmoothTP
+api-version: 1.19
+commands:
+    smoothworld:
+        description: SmoothWorld command
+        usage: /<command> worldname
+        aliases: [sw]
+        permission: smoothworld.command
+        permission-message: You don't have permission to use this command.
